@@ -23,8 +23,8 @@ int count=0;
 
 /* NTP TIME CONSTANTS*/
 
-const char *ssid     = "disconnect";
-const char *password = "danger440volts";
+const char *ssid     = "ssid";
+const char *password = "password";
 const long utcOffsetInSeconds = 19800;
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP,"asia.pool.ntp.org",utcOffsetInSeconds);
